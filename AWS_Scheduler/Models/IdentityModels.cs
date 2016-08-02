@@ -29,5 +29,7 @@ namespace AWS_Scheduler.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<AWS_Scheduler.Models.Credentials> Credentials { get; set; }
     }
 }
